@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item {
+    border: 3px solid black;
+}
+
+.item_name,
+.item_sellprice,
+.item_PD,
+.item_ship,
+.item_bt {
+    text-transform: uppercase;
+}
+
+.item_name {
+    width: 100%;
+    text-align: center;
+}
+
+.item_ship {
+    color: gray;
+}
+.item_text{
+    font-size: 15px;
+}
+.item_link{
+    color:black;
+}
+.item_list > li {
+    list-style: square;
+}
+.item_bt{
+color:white;
+background-color: black;
+font-size: 18px;
+}
